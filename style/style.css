@@ -1,0 +1,77 @@
+header {
+    padding: 1%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+section {
+    float: left;
+    padding: 1%;
+    margin: 2%;
+    width: 25%;
+    border: 1px solid black;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+    position: relative;
+    left: -4px;
+}
+
+article {
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    height: fit-content;
+    background-color: #00f2fe;
+    width: 60%;
+    padding: 5%;
+    align-content: center;
+    margin: 2% auto;
+}
+
+main {
+    background: linear-gradient(#a6c1ee, #fbc2eb );
+    justify-content: center;
+    padding: 1%;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+img {
+    width: 50%;
+    display: inline-block;
+    float: right;
+    justify-content: center;
+}
+
+.navBar {
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+}
+
+.navBar a {
+    color: white;
+    font-size: 20px;
+    padding: 1%;
+}
+
+.navBar a:hover {
+    background-color: grey;
+    cursor: pointer;
+}
