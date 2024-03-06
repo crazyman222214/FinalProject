@@ -58,6 +58,7 @@ img {
     display: block;
     float: right;
     justify-content: center;
+    margin-top: -10px;
 }
 
 .navBar {
