@@ -54,7 +54,8 @@ footer {
 
 img {
     width: 50%;
-    display: inline-block;
+    height: fit-content;
+    display: block;
     float: right;
     justify-content: center;
 }
@@ -63,6 +64,11 @@ img {
     background-color: black;
     padding: 1%;
     text-align: center;
+}
+
+.disc {
+    width: 60%;
+    height: fit-content;
 }
 
 .navBar a {
