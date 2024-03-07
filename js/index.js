@@ -5,7 +5,7 @@ let slideshowSpeed = 2;
 
 
 window.onload = (event) => {
-    setInterval(function() {slideshow()}, 2000); 
+    setInterval(function() {slideshow()}, 2000);  
 } 
 
 function slideshow() {
