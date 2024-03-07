@@ -3,9 +3,9 @@ const slideshowImage = document.getElementById("slideshowImage");
 let slideshowPosition = 0;
 let slideshowSpeed = 2;
 
-
-setInterval(slideshow(), 2000);
-
+window.onload = (event) => {
+    
+}
 
 function slideshow() {
     slideshowImage.src = slideshowFilePaths[slideshowPosition];
