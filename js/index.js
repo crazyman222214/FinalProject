@@ -8,7 +8,7 @@ setInterval(slideshow(), 2000);
 
 
 function slideshow() {
-    slideshowImage.src = slideShowFilePaths[slideshowPosition];
+    slideshowImage.src = slideshowFilePaths[slideshowPosition];
     slideshowPosition++;
     console.log("YAY");
 }
