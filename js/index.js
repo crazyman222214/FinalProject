@@ -5,11 +5,11 @@ let slideshowSpeed = 2;
 
 
 window.onload = (event) => {
-    setInterval(function() {slideshow()}, 2000);  
+    setInterval(function() {slideshow()}, 2000);
 } 
 
 function slideshow() {
     let imgPath = slideshowFilePaths[slideshowPosition]; 
     slideshowImage.src = imgPath;
-    slideshowPosition = (slideshowPosition >= slideshowFilePaths.length) ? 0 : slideshowPosition + 1;
+    slideshowPosition = (slideshowPosition >= slideshowFilePaths.length-1) ? 0 : slideshowPosition + 1;
 }
