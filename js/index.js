@@ -16,7 +16,7 @@ function slideshow() {
     slideshowPosition = (slideshowPosition >= slideshowFilePaths.length-1) ? 0 : slideshowPosition + 1; 
 }
 
-async function apiCall() {
-    let json = fetch("https://thesimpsonsquoteapi.glitch.me/quotes").then(a => a.text()).then(b => JSON.parse(b).quote);
+function apiCall() {
+    let json = fetch("https://thesimpsonsquoteapi.glitch.me/quotes").then(a => a.text()).then(b => JSON.parse(b));
     console.log(json); 
 }
