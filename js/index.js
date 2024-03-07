@@ -13,7 +13,7 @@ window.onload = (event) => {
 function slideshow() {
     let imgPath = slideshowFilePaths[slideshowPosition]; 
     slideshowImage.src = imgPath;
-    slideshowPosition = (slideshowPosition >= slideshowFilePaths.length-1) ? 0 : slideshowPosition + 1;
+    slideshowPosition = (slideshowPosition >= slideshowFilePaths.length-1) ? 0 : slideshowPosition + 1; 
 }
 
 async function apiCall() {
