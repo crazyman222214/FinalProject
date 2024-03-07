@@ -6,6 +6,7 @@ let slideshowSpeed = 2;
 
 document.onload = () => {
     setInterval(slideshow, slideshowSpeed*1000);
+    console.log("WOW");
 };
 
 
