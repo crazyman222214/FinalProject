@@ -8,7 +8,8 @@ window.onload = (event) => {
 }
 
 function slideshow() {
-    slideshowImage.src = slideshowFilePaths[slideshowPosition];
+    let imgPath = slideshowFilePaths[slideshowPosition];
+    
     slideshowPosition++;
     console.log("YAY");
 }
