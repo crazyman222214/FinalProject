@@ -17,5 +17,5 @@ function slideshow() {
 
 async function apiCall() {
     let quote = fetch("https://thesimpsonsquoteapi.glitch.me/quotes").then(a => a.text()).then(b => JSON.parse(b));
-    quoteText.innerText = quote;
+    quoteText.innerText = quote; 
 }
