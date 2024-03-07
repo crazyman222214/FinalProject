@@ -4,13 +4,11 @@ let slideshowPosition = 0;
 let slideshowSpeed = 2;
 
 
-document.onload = () => {
-    setInterval(slideshow, slideshowSpeed*1000);
-    console.log("WOW");
-};
+setInterval(slideshow(), 2000);
 
 
 function slideshow() {
     slideshowImage.src = slideShowFilePaths[slideshowPosition];
     slideshowPosition++;
+    console.log("YAY");
 }
