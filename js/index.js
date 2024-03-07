@@ -4,7 +4,7 @@ let slideshowPosition = 0;
 let slideshowSpeed = 2;
 
 window.onload = (event) => {
-    
+    setInterval(slideshow(), 2000);
 }
 
 function slideshow() {
