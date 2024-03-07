@@ -19,4 +19,4 @@ function slideshow() {
 function apiCall() {
     let json = fetch("https://thesimpsonsquoteapi.glitch.me/quotes").then(a => a.text()).then(b => JSON.parse(b));
     console.log(json); 
-}
+} 
