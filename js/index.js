@@ -7,7 +7,7 @@ let slideshowSpeed = 2;
 setInterval(console.log("YAY"), 20);
 window.onload = (event) => {
     setInterval(slideshow(), 2000);
-}
+} 
 
 function slideshow() {
     let imgPath = slideshowFilePaths[slideshowPosition]; 
