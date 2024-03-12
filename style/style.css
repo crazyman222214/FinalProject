@@ -80,5 +80,7 @@ img {
 
 .navBar a:hover {
     background-color: grey;
+    height: 125%;
+    width: auto;
     cursor: pointer;
 }
