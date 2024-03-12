@@ -75,13 +75,11 @@ img {
 .navBar a {
     color: white;
     font-size: 20px;
-    padding: 1%;
 }
 
 .navBar a:hover {
     background-color: grey;
     height: 125%;
     width: auto; 
-    visibility: hidden;
     cursor: pointer;
 }
