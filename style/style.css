@@ -75,6 +75,7 @@ img {
 .navBar a {
     color: white;
     font-size: 20px;
+    height: 90%;
 }
 
 .navBar a:hover {
