@@ -1,0 +1,1 @@
+let clipSlideshow = document.getElementById("clipSlideshow");
